@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "None",
+        "target": "es2015",
+        "jsx": "preserve",
+        "strictFunctionTypes": true,
+        "sourceMap": true,
+        "outDir": "_test",
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}

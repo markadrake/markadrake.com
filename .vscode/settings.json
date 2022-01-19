@@ -7,4 +7,16 @@
         "**/bower_components": true,
         "**/*.code-search": true
     },
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/_test/"
+        },
+        {
+            "format": "compact",
+            "extensionName": ".min.css",
+            "savePath": "/_test/"
+        }
+    ]
 }

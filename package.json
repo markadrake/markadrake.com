@@ -8,9 +8,11 @@
 	"devDependencies": {
 		"@11ty/eleventy": "^1.0.0",
 		"handlebars": "^4.7.7",
-		"mustache": "^4.2.0"
+		"mustache": "^4.2.0",
+		"typescript": "^4.5.4"
 	},
 	"scripts": {
-		"dev": "eleventy --serve --watch"		
+		"dev": "eleventy --serve --watch",
+		"dev:typescript": "tsc --watch"
 	}
 }
