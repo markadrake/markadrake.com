@@ -17,6 +17,9 @@ module.exports = function (eleventyConfig) {
 		Passthrough Folders
 	 */
 	eleventyConfig.addPassthroughCopy({"src/media/**/*": "media"});
+	eleventyConfig.addPassthroughCopy({"src/**/*.css": "."});
+	eleventyConfig.addPassthroughCopy({"src/**/*.js": "."});
+	eleventyConfig.addPassthroughCopy({"src/**/*.map": "."});
 
 	return {
 		dir: {

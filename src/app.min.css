@@ -1,0 +1,50 @@
+/* Configuration, Mixins, and Functions */
+/*
+	A function to split a string on periods (.) to
+	access a SASS map through a familiar syntax.
+*/
+/*
+	Use:
+		config("my.path")
+*/
+/*
+	Use:
+		pxToRem([int])
+*/
+/*
+	Alignment
+	Helps us to align the left and right edges of content.
+*/
+/*
+	XS Breakpoint
+	Viewport Width <= 39.99rem (639px)
+*/
+/*
+	S Breakpoint
+	Viewport Width >= 40rem (640px)
+*/
+/*
+	M Breakpoint
+	Viewport Width >= 64rem (1024px)
+*/
+/*
+	L Breakpoint
+	Viewport Width >= 90rem (1440px)
+*/
+/*
+	XL Breakpoint
+	Viewport Width >= 120rem (1920px)
+*/
+/*
+	Typography
+*/
+/*
+	-------------------------------------------------------
+	Updates to this file should not be made directly in the
+	framework. Instead, copy this file to the /src/
+	directory. Update `app.scss` to point your new file.
+	-------------------------------------------------------
+*/
+/* Features, Grid Editors, Block Editors */
+/* Specific Templates */
+/*# sourceMappingURL=app.min.css.map */
