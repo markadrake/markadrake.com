@@ -8,18 +8,18 @@
 	<meta name="description" content="{{{description}}}">
 	<link rel="stylesheet" href="/critical.min.css">
 	<link rel="preload" href="/app.min.css" as="style" onload="this.rel='stylesheet';this.onload=null">
-	<script src="/critical.js"></script>
+	{{!-- <script src="/critical.js"></script> --}}
 </head>
 <body>
 
-	<img src="/media/logo.svg">
+	{{> header }}
 
 	{{{content}}}
 
 	<noscript>
 		<link rel="stylesheet" href="/app.min.css">
 	</noscript>
-	<script src="/app.js" async defer></script>
+	{{!-- <script src="/app.js" async defer></script> --}}
 
 </body>
 </html>
